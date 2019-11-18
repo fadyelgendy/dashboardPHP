@@ -1,0 +1,34 @@
+.bar {
+    height: 20px;
+    background: #999;
+    margin-top: -0.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.bar1, .bar2 {
+    
+    height: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.bar1 {
+    width: 60%;
+}
+.bar2 {
+    width: 40%;
+}
+
+/* Overview Area */
+.overview>div {
+    margin: 0.1rem
+}
+
+/*Media queries*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1508px;
+    }
+}
